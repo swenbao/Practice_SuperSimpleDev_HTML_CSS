@@ -1,0 +1,43 @@
+body{
+    height: 3000px;
+}
+
+.sidebar{
+    background-color: green;
+    color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal{
+    background-color: white;
+    padding: 15px 170px 15px 15px;
+    border-radius: 5px;
+}
+
+.title{
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.content{
+    font-family: Arial;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,24 @@
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    background-color: lightpink;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1{
+    background-color: black;
+    color: white;
+}
+
+.right{
+    background-color: lightblue;
+    width: 200px;
+    height: 50px;
+}

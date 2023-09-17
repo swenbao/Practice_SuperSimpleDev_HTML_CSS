@@ -1,0 +1,50 @@
+div{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.294);
+    width: 400px;
+    padding-left: 12px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    border-radius: 8px;
+}
+
+.body{
+    font-family: Arial;
+}
+
+.photo{
+    width: 45px;
+    height: 45px;
+    border: 0.2px solid black;
+    border-radius: 50px;
+    vertical-align: middle;
+    object-fit: cover;
+    object-position: top left;
+}
+
+.text-box{
+    border: none;
+    font-size: 15px;
+    vertical-align: middle;
+    width: 250px;
+}
+
+.tweet{
+    background-color: rgb(29, 155, 240);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.tweet:hover{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15); /* 右移 下移 模糊程度 顏色 */
+}
+
+.tweet:active{
+    opacity: 0.7;
+}

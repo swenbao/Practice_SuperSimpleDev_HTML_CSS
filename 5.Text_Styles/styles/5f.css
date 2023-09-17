@@ -1,0 +1,29 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial;
+}
+
+.first{
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+
+.usd{
+    font-size: 15px;
+    color: gray;
+    margin-left: 10px;
+}
+
+.sec{
+    color: green;
+    margin-bottom: 8px;
+}
+
+.aa{
+    color: gray;
+}
+
+.bb{
+    color: brown;
+}

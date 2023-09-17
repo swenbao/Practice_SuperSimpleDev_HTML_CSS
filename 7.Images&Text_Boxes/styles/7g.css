@@ -1,0 +1,37 @@
+.body{
+    font-family: Arial;
+}
+
+.photo{
+    width: 45px;
+    border: 0.2px solid black;
+    border-radius: 50px;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.text-box{
+    border: none;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.tweet{
+    background-color: rgb(29, 155, 240);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.tweet:hover{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15); /* 右移 下移 模糊程度 顏色 */
+}
+
+.tweet:active{
+    opacity: 0.7;
+}

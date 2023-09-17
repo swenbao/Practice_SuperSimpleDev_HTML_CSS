@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    width: 450px;
+    /* flex-direction: row; */
+}
+
+.right{
+    /* background-color: lightblue; */
+    padding-right: 20px;
+    flex: 1;
+}
+
+.msg{
+    margin-bottom: 15px;
+}
+
+.sender-img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.video{
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.video-preview{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top left;
+    margin-right: 12px;
+}
+
+.video-info{
+    flex: 1;
+
+}

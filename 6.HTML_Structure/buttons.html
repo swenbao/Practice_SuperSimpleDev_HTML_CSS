@@ -1,0 +1,41 @@
+<!-- 重點整理：
+
+1. 要看別人網頁的確切顏色什麼的，用 Chrome dev tool
+
+2. element 不要用 height, width
+因為如果 text 改變, height & width 固定可能會超過範圍且醜
+我們希望按鈕可以隨著文字改變而改變形狀
+-> 用 padding 
+
+3. CSS box model 
+外 -> 內 : margin -> border -> padding -> text 
+
+4. vertical-align
+CSS 預設用文字 align elements 
+如果 padding 不一樣的關係造成按鈕看起來不對齊
+
+用 vertical-align 調整
+-->
+
+<!Doctype html>
+<html>
+    <head>
+        <title>Button</title>
+        <link rel="stylesheet" href="./styles/buttons.css"> <!--don't need closing tag -> void element-->
+    </head>
+    <body>
+        <!-- This is an HTML element -->
+        <!-- opening tag   closing tag -->
+        <button class="subscribe-button">
+            SUBSCRIBE
+        </button>
+        <button class="join-button">
+            JOIN
+        </button>
+        <button class="tweet-button">
+            Tweet
+        </button>
+    </body>
+</html>
+
+

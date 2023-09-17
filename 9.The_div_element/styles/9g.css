@@ -1,0 +1,65 @@
+p, button{
+    font-family: Arial;
+    margin:0;
+}
+
+.profile-container{
+    display: inline-block;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.363);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.profile-container:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.594);
+}
+
+.info {
+    padding-left: 8px;
+} 
+
+.name {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.friends{
+    margin-top: 5px;
+    color: gray;
+}
+
+.add{
+    border: none;
+    padding: 10px 20px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(25, 109, 255);
+    transition: opacity 0.1s;
+    cursor: pointer;
+}
+
+.add:hover{
+    opacity: 0.8;
+}
+
+.add:active{
+    opacity: 0.5;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0;
+}
+
+.sakurai{
+    object-position: top;
+}
+
+.rabbit{
+    object-position: top;
+}

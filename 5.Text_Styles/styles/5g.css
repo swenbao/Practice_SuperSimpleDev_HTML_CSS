@@ -1,0 +1,38 @@
+p{
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.who{
+    margin-bottom: 5px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.id{
+    color: gray;
+}
+
+.description{
+    width: 550px;
+    line-height: 25px;
+}
+
+.tag{
+    color: rgb(0, 166, 255);
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.tag:hover{
+    opacity: 0.8;
+}
+
+.tag:active{
+    opacity: 0.5;
+}

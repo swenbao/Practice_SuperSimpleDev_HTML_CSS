@@ -1,0 +1,96 @@
+p, button{
+    font-family: Arial;
+    margin:0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+}
+
+.profile-container{
+    /* display: inline-block; */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.363);
+    /* margin-right: 10px;
+    margin-left: 10px; */
+}
+
+.profile-container:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.594);
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0;
+}
+
+.sakurai{
+    object-position: top;
+}
+
+.rabbit{
+    object-position: top;
+}
+
+.info {
+    padding-left: 8px;
+} 
+
+.name {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+
+.mutual-friends {
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.friend-photo{
+    /* display: inline-block; */
+    border: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: top left;
+    /* vertical-align: middle; */
+    /* background-color: lightpink; */
+}
+
+.friends{
+    /* background-color: lightblue; */
+    /* display: inline-block; */
+    /* margin-top: 5px; */
+    color: gray;
+    /* vertical-align: middle;*/ /* for inline-block */
+}
+
+.add{
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(25, 109, 255);
+    transition: opacity 0.1s;
+    cursor: pointer;
+}
+
+.add:hover{
+    opacity: 0.8;
+}
+
+.add:active{
+    opacity: 0.5;
+}
+
+

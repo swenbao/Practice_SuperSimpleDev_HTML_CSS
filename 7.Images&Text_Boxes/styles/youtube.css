@@ -1,0 +1,8 @@
+.thumbnail{
+    width: 300px;
+    /*
+    object-fit: contain; 
+    object-position: top; 兩個 img 特有的 properties
+     */
+
+}

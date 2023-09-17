@@ -1,0 +1,62 @@
+<!-- block element take up the entire line in their container -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/youtube.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Youtube</title>
+</head>
+<body>
+    <input class="search-bar" type="text" placeholder="Search"> <!--default inline-block-->
+   
+    <div class="video-container">
+        <div class="thumbnail-row">
+            <img src="../imgs/thumbnail-1.webp" alt="thumbnail-1" class="thumbnail">
+        </div>
+        <div>
+            <div class="channel-picture">
+                <!-- 用 div 包 img 就算 div 的大小比 img 小，也不影響到 img 大小，會 overflow -->
+                <img src="../imgs/channel-1.jpeg" alt="Marques Brownlee picture" class="profile-picture">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+                <p class="video-author">    
+                    Marques Brownlee
+                </p>
+                <p class="video-status">
+                    3.4M views &#183; 6 months ago
+                </p>
+            </div>    
+        </div>
+    </div>
+
+    <div class="video-container">
+        <div class="thumbnail-row">
+            <img src="../imgs/thumbnail-2.webp" alt="thumbnail-2" class="thumbnail">
+        </div>
+        <div>
+            <div class="channel-picture">
+                <img src="../imgs/channel-2.jpeg" alt="channel-2" class="profile-picture">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    Try Not To Laughh Challenge #9
+                </p>
+                <p class="video-author">    
+                    Markipiler
+                </p>
+                <p class="video-status">
+                    19M views &#183; 4 years ago
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
