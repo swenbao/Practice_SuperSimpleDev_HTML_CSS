@@ -9,6 +9,12 @@
     padding-top: 5px;
 }
 
+@media(min-width:1200px){
+    .sidebar{
+        width: 216px;
+    }
+}
+
 .sidebar-link{
     height: 74px;
     display: flex;
@@ -26,4 +32,21 @@
 }
 .sidebar-link div{
     font-size: 10px;
+}
+
+@media (min-width: 1200px) {
+    .sidebar-link{
+        height: 45px;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .sidebar-link img{
+        margin: 0px 15px;
+    }
+    body {
+        padding-left: 260px;
+    }
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
