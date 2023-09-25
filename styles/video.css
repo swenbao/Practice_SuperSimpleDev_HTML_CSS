@@ -28,6 +28,10 @@
     grid-template-columns: 50px 1fr;
 }
 
+/* .test{
+    background-color: gray;
+} */
+
 .profile-picture{
     width: 36px;
     border-radius: 50px;
@@ -35,24 +39,33 @@
 
 .channel-picture { 
     position: relative;
-    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    /* background-color: aqua; */
 }
 
 .creator-info{
     display: flex;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.491);
-    position: absolute;
     padding: 15px 15px;
     justify-content: space-between;
     align-items: center;
     /* width: 200px; */
     border-radius: 8px;
+
+    position: absolute;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.2s;
     white-space: nowrap;
-    bottom: -30px;
+    top: 40px;
+    left: 20px;
+    z-index: 100;
+}
+
+.channel-picture:hover .creator-info{
+    opacity: 1;
 }
 
 .creator-info img{
